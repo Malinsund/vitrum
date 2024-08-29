@@ -1,0 +1,151 @@
+body {
+    background-color: #E9E1D5;
+}
+
+.logotypeSection {
+    display: flex;
+    justify-content: center;
+} 
+.logotypeDiv {
+    display: flex;
+    flex-direction: column;
+    
+} 
+.logotype {
+    margin-top: 30px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+h3 {
+    font-family: "Luicida Console",monaco, monospace;
+    font-style: normal;
+    font-size:xx-small;
+    max-width: 150px;
+    position:absolute;
+    top: 85px;
+    text-align: center;
+
+}
+.profileCart {
+    justify-content: end;
+
+}
+.cart {
+    width: 20px;
+    position: absolute;
+    right:10px;
+}
+.profile {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top:30px;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+p{
+    font-family: "PT Sans", sans-serif;
+    font-size: xx-small;
+    text-align: center;
+
+}
+
+.card1  {
+    background: #346767;
+    color: #FFD966;
+    flex: 3/3; 
+}
+.card2 {
+    background: #C86068;
+    color: white;
+    flex: 3/3;
+    
+}
+.card3{
+    background: #C1DFC4;
+    flex: 3/3;
+
+}
+.card4{
+    background: #C1DFC4;
+    flex: 3/3;
+
+}
+.card5{
+    background: #346767;
+    color:#FFD966;
+    flex: 3/3;
+
+}
+.card6{
+    background: #C86068;
+    color: white;
+    flex: 3/3;
+
+}
+.card7{
+    background: #346767;
+    color:#FFD966;
+    flex: 3/9;
+}
+
+.card{
+    border-radius: 15px;
+    width: calc(33.33% - 10px);
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 10%;
+    
+}
+
+.arrows{
+    width: 15%;
+    height: 10%;
+}
+
+@media screen and (min-width: 640px) {
+   
+    .logotypeDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .logotype {
+        margin-top: 70px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    h3 {
+        font-family: "Luicida Console",monaco, monospace;
+        font-style: normal;
+        font-size: medium;
+        position:absolute;
+        top: 250px;
+        max-width:max-content
+    
+    }
+    .cart {
+        width: 50px;
+        position: absolute;
+        right:10px;
+    }
+    .profile {
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        top:60px;
+    }
+    
+}
