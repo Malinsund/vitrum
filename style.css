@@ -43,11 +43,14 @@ h3 {
     right: 10px;
     top:30px;
 }
+
 .card-container{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 10%;
     
 }
 p{
@@ -56,61 +59,78 @@ p{
     text-align: center;
 
 }
+.card{
+    border-radius: 15px;
+    width: 80px;
+    justify-content: center;
+    box-sizing: border-box;
+}
 
 .card1  {
     background: #346767;
     color: #FFD966;
-    flex: 3/3; 
+    
 }
 .card2 {
     background: #C86068;
     color: white;
-    flex: 3/3;
+   
     
 }
 .card3{
     background: #C1DFC4;
-    flex: 3/3;
+    
 
 }
 .card4{
     background: #C1DFC4;
-    flex: 3/3;
+    
 
 }
 .card5{
     background: #346767;
     color:#FFD966;
-    flex: 3/3;
+    
 
 }
 .card6{
     background: #C86068;
     color: white;
-    flex: 3/3;
+    
 
 }
 .card7{
     background: #346767;
     color:#FFD966;
-    flex: 3/9;
-}
-
-.card{
+    width: 50%;
     border-radius: 15px;
-    width: calc(33.33% - 10px);
     justify-content: center;
-    box-sizing: border-box;
-}
-
-.card img{
-    width: 10%;
+    margin: auto;
     
 }
 
+
+
+.card img{
+    width: auto;
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+}
+.card7 img{
+    width: auto;
+    margin: 10px auto;
+    height: 40px;
+    display: block;
+    
+}
+
+
 .arrows{
     width: 15%;
-    height: 10%;
+    height: auto;
+    display: block;
+    margin: 10% auto;
 }
 
 @media screen and (min-width: 640px) {
