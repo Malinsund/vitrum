@@ -1,5 +1,6 @@
 body {
     background-color: #E9E1D5;
+    height: 100%;
 }
 
 .logotypeSection {
@@ -30,6 +31,7 @@ h3 {
 }
 .profileCart {
     justify-content: end;
+    cursor: pointer;
 
 }
 .cart {
@@ -49,8 +51,8 @@ h3 {
     gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
-    margin: 10%;
+    padding-top: 20px;
+    margin: 10% 10% 0 10%;
     
 }
 p{
@@ -61,44 +63,24 @@ p{
 }
 .card{
     border-radius: 15px;
-    width: 80px;
+    width: 100px;
+    height: 120px;
     justify-content: center;
     box-sizing: border-box;
 }
 
-.card1  {
+.card1, .card5  {
     background: #346767;
     color: #FFD966;
-    
 }
-.card2 {
+.card2, .card6 {
     background: #C86068;
-    color: white;
-   
-    
+    color: white;  
 }
-.card3{
+.card3, .card4{
     background: #C1DFC4;
-    
-
 }
-.card4{
-    background: #C1DFC4;
-    
 
-}
-.card5{
-    background: #346767;
-    color:#FFD966;
-    
-
-}
-.card6{
-    background: #C86068;
-    color: white;
-    
-
-}
 .card7{
     background: #346767;
     color:#FFD966;
@@ -110,19 +92,17 @@ p{
 }
 
 
-
 .card img{
     width: auto;
     display: block;
     margin: 10px auto;
-    height: 30px;
+    height: 50px;
 }
 .card7 img{
     width: auto;
     margin: 10px auto;
     height: 40px;
     display: block;
-    
 }
 
 
@@ -133,16 +113,61 @@ p{
     margin: 10% auto;
 }
 
-@media screen and (min-width: 640px) {
-   
+footer {
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(#E9E1D5, #C86068);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.socialMedia-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 50px; 
+}
+
+.socialMedia img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.contact {
+   line-height: 0.3;
+}
+.logo-icon {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    max-width: 80px; 
+    max-height: 80px;
+    
+}
+@media screen and (min-width: 640px){
+
     .logotypeDiv {
         display: flex;
         flex-direction: column;
         justify-content: center;
     } 
     .logotype {
-        margin-top: 70px;
-        max-width: 600px;
+        margin-top: 100px;
+        max-width: 400px;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -152,20 +177,236 @@ p{
         font-style: normal;
         font-size: medium;
         position:absolute;
-        top: 250px;
-        max-width:max-content
+        top: 210px;
+        max-width:300px;
+    
+    }
+    .card-container{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        margin: 10% 10%;
+    }
+    p{
+        font-family: "PT Sans", sans-serif;
+        font-size: larger;
+        text-align: center;
+    
+    }
+    .card{
+        border-radius: 15px;
+        width: 250px;
+        height: 300px;
+        justify-content: center;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .cart {
+        width: 50px;
+        position: absolute;
+        right:20px;
+        top:20px;
+    }
+    .profile {
+        width: 50px;
+        position: absolute;
+        right: 20px;
+        top:80px;
+    }
+
+    .card img{
+        width: auto;
+        display: block;
+        margin: 10% auto;
+        height: 120px;
+    }
+    .card7{
+        background: #346767;
+        color:#FFD966;
+        width: 60%;
+        border-radius: 15px;
+        justify-content: center;
+        margin: auto;
+        cursor: pointer;
+        
+    }
+    .card7 img{
+        height: auto;
+        width: 80%;
+        object-fit: contain;
+     }
+
+}
+
+@media screen and (min-width: 850px) {
+   
+    .logotypeDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .logotype {
+        margin-top: 200px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    h3 {
+        font-family: "Luicida Console",monaco, monospace;
+        font-style: normal;
+        font-size: larger;
+        position:absolute;
+        top: 400px;
+        max-width:max-content;
     
     }
     .cart {
         width: 50px;
         position: absolute;
-        right:10px;
+        right:20px;
+        top:20px;
     }
     .profile {
         width: 50px;
         position: absolute;
-        right: 10px;
-        top:60px;
+        right: 20px;
+        top:80px;
+    }
+    .card-container{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        margin: 10% 10%;
+    }
+    p{
+        font-family: "PT Sans", sans-serif;
+        font-size: larger;
+        text-align: center;
+    
+    }
+    .card{
+        border-radius: 15px;
+        width: 250px;
+        height: 300px;
+        justify-content: center;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     
+    .card1, .card5  {
+        background: #346767;
+        color: #FFD966;
+        
+    }
+    .card2, .card6 {
+        background: #C86068;
+        color: white;
+    }
+    .card3, .card4{
+        background: #C1DFC4;
+    }
+ 
+    .card img{
+        width: auto;
+        display: block;
+        margin: 10% auto;
+        height: 120px;
+    }
+    .arrows{
+        width: 25%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .card7{
+        background: #346767;
+        color:#FFD966;
+        width: 60%;
+        border-radius: 15px;
+        justify-content: center;
+        margin: auto;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .card7:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .card7 p{
+        font-size: x-large;
+        padding-top: 5%;
+    }
+    .card7 img{
+       height: auto;
+       width: 80%;
+       object-fit: contain;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background: linear-gradient(#E9E1D5, #C86068);
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+    
+    .socialMedia-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .socialMedia {
+        display: flex;
+        gap: 50px; 
+    }
+    
+    .socialMedia img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    .contact {
+       line-height: 0.3;
+    }
+    .logo-icon {
+        position: absolute;
+        bottom: 10px; 
+        right: 10px; 
+        max-width: 30%; 
+        max-height: 70%;
+        
+    }
+    
+}
+@media screen and (min-width: 850px){
+    .card-container{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        margin: 10% 20%;
+    }
 }
