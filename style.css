@@ -34,12 +34,12 @@ h3 {
     cursor: pointer;
 
 }
-.cart {
+.cart img{
     width: 20px;
     position: absolute;
     right:10px;
 }
-.profile {
+.profile img{
     width: 20px;
     position: absolute;
     right: 10px;
@@ -106,9 +106,10 @@ p{
 }
 
 
-.arrows{
-    width: 15%;
-    height: auto;
+.arrows img{
+    object-fit: contain;
+    max-width: 70%;
+    height: 5%;
     display: block;
     margin: 10% auto;
 }
@@ -204,13 +205,13 @@ footer {
         cursor: pointer;
         transition: transform 0.3s ease;
     }
-    .cart {
+    .cart img {
         width: 50px;
         position: absolute;
         right:20px;
         top:20px;
     }
-    .profile {
+    .profile img {
         width: 50px;
         position: absolute;
         right: 20px;
@@ -264,13 +265,13 @@ footer {
         max-width:max-content;
     
     }
-    .cart {
+    .cart img{
         width: 50px;
         position: absolute;
         right:20px;
         top:20px;
     }
-    .profile {
+    .profile img{
         width: 50px;
         position: absolute;
         right: 20px;
@@ -323,11 +324,12 @@ footer {
         margin: 10% auto;
         height: 120px;
     }
-    .arrows{
-        width: 25%;
-        height: auto;
+    .arrows img{
+        object-fit: contain;
+        max-width: 70%;
+        height: 5%;
         display: block;
-        margin: auto;
+        margin: 10% auto;
     }
     .card7{
         background: #346767;
@@ -385,6 +387,7 @@ footer {
     .socialMedia img {
         max-width: 50px;
         max-height: 50px;
+        cursor: pointer;
     }
     
     .contact {
@@ -408,5 +411,12 @@ footer {
         flex-wrap: wrap;
         padding: 10px 0;
         margin: 10% 20%;
+    }
+    .arrows img{
+        object-fit: contain;
+        max-width: 70%;
+        height: 5%;
+        display: block;
+        margin: 15% auto 5% auto;
     }
 }
