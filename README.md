@@ -8,4 +8,4 @@ Bakgrunden är en neutral färg som speglar natur och papper, accentfärgerna ä
 
 ### Github pages
 
-Förhandsgranska på denna länk 
+Förhandsgranska på denna länk https://malinsund.github.io/vitrum/
