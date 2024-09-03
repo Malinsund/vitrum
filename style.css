@@ -52,7 +52,7 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 20px;
-    margin: 10% 10% 0 10%;
+    margin: 10% 5% 0 5%;
     
 }
 p{
@@ -63,8 +63,8 @@ p{
 }
 .card{
     border-radius: 15px;
-    width: 100px;
-    height: 120px;
+    width: 150px;
+    height: 170px;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -84,7 +84,8 @@ p{
 .card7{
     background: #346767;
     color:#FFD966;
-    width: 50%;
+    width: 70%;
+    height: auto;
     border-radius: 15px;
     justify-content: center;
     margin: auto;
@@ -95,20 +96,20 @@ p{
 .card img{
     width: auto;
     display: block;
-    margin: 10px auto;
-    height: 50px;
+    margin: 30px auto;
+    height: 60px;
 }
 .card7 img{
     width: auto;
     margin: 10px auto;
-    height: 40px;
+    height: 70px;
     display: block;
 }
 
 
 .arrows img{
     object-fit: contain;
-    max-width: 70%;
+    max-width: 50%;
     height: 5%;
     display: block;
     margin: 10% auto;
@@ -122,13 +123,12 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(#E9E1D5, #C86068);
+    
 }
 
 .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px; 
 }
 
@@ -140,7 +140,7 @@ footer {
 
 .socialMedia {
     display: flex;
-    gap: 50px; 
+    gap: 30px; 
 }
 
 .socialMedia img {
@@ -150,13 +150,16 @@ footer {
 
 .contact {
    line-height: 0.3;
+   font-size: 2px;
+   
+   
 }
 .logo-icon {
     position: absolute;
     bottom: 10px; 
     right: 10px; 
-    max-width: 80px; 
-    max-height: 80px;
+    max-width: 50px; 
+    max-height: 50px;
     
 }
 @media screen and (min-width: 640px){
@@ -283,7 +286,7 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
         padding: 10px 0;
-        margin: 10% 10%;
+        /* margin: 10% 10%; */
     }
     p{
         font-family: "PT Sans", sans-serif;
@@ -409,7 +412,7 @@ footer {
         gap: 70px;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 10px 0;
+        padding: 20px 0;
         margin: 10% 20%;
     }
     .arrows img{
@@ -419,4 +422,15 @@ footer {
         display: block;
         margin: 15% auto 5% auto;
     }
+}
+@media screen and (min-width: 1500px){
+    .card-container{
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        margin: 10% 10%;
+    }
+
 }
