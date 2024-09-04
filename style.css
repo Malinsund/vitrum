@@ -55,8 +55,8 @@ h3 {
     margin: 10% 5% 0 5%;
     
 }
-p{
-    font-family: "PT Sans", sans-serif;
+.card-title{
+    font-family: "Luicida Console",monaco, monospace;
     font-size: xx-small;
     text-align: center;
 
@@ -191,8 +191,8 @@ footer {
         padding: 10px 0;
         margin: 10% 1% 10% 5%;
     }
-    p{
-        font-family: "PT Sans", sans-serif;
+    .card-title{
+        font-family: "Luicida Console",monaco, monospace;
         font-size: larger;
         text-align: center;
     
@@ -240,8 +240,12 @@ footer {
         width: 80%;
         object-fit: contain;
      }
+     p {
+        font-family: "PT Sans", sans-serif;
+     }
      .contact {
         font-size: small;
+        
      }
 
 }
@@ -289,8 +293,8 @@ footer {
         padding: 10px 0;
         /* margin: 10% 10%; */
     }
-    p{
-        font-family: "PT Sans", sans-serif;
+    .card-title{
+        font-family: "Luicida Console",monaco, monospace;
         font-size: larger;
         text-align: center;
     
