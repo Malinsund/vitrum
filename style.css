@@ -38,7 +38,9 @@ h3 {
     width: 20px;
     position: absolute;
     right:10px;
+    transition: transform ease 0.4;
 }
+
 .profile img{
     width: 20px;
     position: absolute;
@@ -278,12 +280,20 @@ footer {
         position: absolute;
         right:20px;
         top:20px;
+        transition: transform 0.3s ease;
+    }
+    .cart img:hover {
+        transform: scale(1.5);
     }
     .profile img{
         width: 50px;
         position: absolute;
         right: 20px;
         top:80px;
+        transition: transform 0.3s ease;
+    }
+    .profile img:hover{
+        transform: scale(1.5);
     }
     .card-container{
         display: flex;
@@ -396,6 +406,10 @@ footer {
         max-width: 50px;
         max-height: 50px;
         cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .socialMedia img:hover{
+        transform: scale(1.2);
     }
     
     .contact {
